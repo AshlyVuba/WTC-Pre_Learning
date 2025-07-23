@@ -1,5 +1,5 @@
 def deep():
-    answer = input("What is the Answer to the Great Questions of Life, the Universe, and Everything?: ").strip().lower()
+    answer = input("What is the Answer to the Great Questions of Life, the Universe, and Everything?: ").lower()
     if answer in [42, "forty-two", "forty two"]:
         return "Yes"
     else:
